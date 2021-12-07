@@ -10,3 +10,4 @@ You can run the tests by running the following command from the exercise directo
 ```bash
 $ rebar3 eunit
 ```
+**Note:** Unit test method names must end in `_test`

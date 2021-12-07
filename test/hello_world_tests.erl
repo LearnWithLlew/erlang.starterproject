@@ -28,7 +28,10 @@
 -define(_assertStringEqual(Expect, Expr), ?_test(?assertStringEqual(Expect, Expr))).
 
 
-'1_say_hi_test_'() ->
+'1_say_hi_test'() ->
     {"Say Hi!",
      ?_assertStringEqual("Hello, World!",
 			 hello_world:hello())}.
+
+'this_test_should_test'() ->
+  ?assertEqual(2, hello_world:add(1, 1)).
