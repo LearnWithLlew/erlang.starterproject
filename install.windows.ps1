@@ -11,7 +11,7 @@ choco install erlang --version=23.3
 choco install rebar3
 
 # Clone repo
-& "C:\Program Files\Git\cmd\git.exe" clone https://raw.githubusercontent.com/LearnWithLlew/erlang.starterproject.get C:\Code\erlang.starterproject
+& "C:\Program Files\Git\cmd\git.exe" clone https://github.com/LearnWithLlew/erlang.starterproject.git C:\Code\erlang.starterproject
 cd C:\Code\erlang.starterproject
 
 # Run starting haskell stuff
