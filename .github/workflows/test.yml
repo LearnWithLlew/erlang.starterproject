@@ -9,4 +9,4 @@ jobs:
         with:
           otp-version: '22.2'
           elixir-version: '1.9.4'
-      - run: rebar3 eunit
+      - run: ./run_tests.sh
