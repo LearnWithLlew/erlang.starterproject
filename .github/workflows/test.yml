@@ -13,6 +13,6 @@ jobs:
         uses: erlef/setup-beam@v1
         with:
           otp-version: '26'
-          elixir-version: '1.15'
+          rebar3-version: '3.16.1'
 
       - run: ./run_tests.sh
