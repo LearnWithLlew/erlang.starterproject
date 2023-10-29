@@ -10,7 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: erlef/setup-beam@v1
-        with:
-          otp-version: '22.2'
-          elixir-version: '1.9.4'
       - run: ./run_tests.sh
